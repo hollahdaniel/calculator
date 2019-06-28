@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(248, 248, 248);
+    margin-top: 80px;
+    font-family: sans-serif;
+}
+.container, .output, .but, .output input{
+    border-radius: 7px;
+}
+.container{
+    margin: 0 auto;
+    width: 375px;
+    height: 515px;
+    background: #EBEBEB;
+}
+h2{
+    color: #A238A8;
+    font-weight: 600px;
+    font-size: 20px;
+}
+.holder{
+    padding: 1px 30px;
+}
+.output{
+    width: 316px;
+    height: 76px;
+    background: #fff;
+    margin-top: -5px;
+}
+.result{
+    width: 99%;
+    padding: 25px 0;
+    outline: none;
+    text-align-last: right;
+}
+.buttons{
+    margin: 18px 0;
+}
+.but{
+    width: 62px;
+    height: 52px;
+}
+.middle, .num-middle, .icon-middle, .icon-plus, .result{
+    position: relative;
+    /* font-weight: 550; */
+    font-size: 18px;
+}
+.result{
+    font-size: 23px;
+}
+.middle{
+    top: 33%;
+    left: 29%;
+} 
+.num-middle{
+    top: 33%;
+    left: 42%;
+}
+.sign{
+    background-color: #BDBDBD;
+}
+.top{
+    float: left;
+}
+.right{
+    margin-right: 22px;
+    margin-bottom: 22px;
+}
+.white{
+    background-color: #fff;
+}
+.white:hover{
+    background-color: rgba(0, 0, 0, 0.205);
+    color: #fff;
+}
+.ash:hover{
+    background: rgb(131, 131, 131);
+    color: rgb(246, 246, 246);
+}
+.plus{
+    width: 145px;
+}
+.equals{
+    background: #A238A8;
+    color: #fff;
+}
+.equals:hover{
+    background: rgb(133, 17, 139);
+}
+.icon{
+    width: 20px;
+}
+.icon-middle{
+    top: 33%;
+    left: 37%;
+}
+.icon-plus{
+    top: 33%;
+    left: 45%;
+}
